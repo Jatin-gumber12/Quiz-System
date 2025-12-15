@@ -33,7 +33,7 @@ Tech Stack
 
 Project Structure 
 
-    quiz-system/
+quiz-system/
 │
 ├── admin/
 │   ├── dashboard.php
@@ -60,9 +60,6 @@ Project Structure
 │
 ├── quiz/
 │   └── save-results.php
-│
-├── config/
-│   └── db.php   ❌ (ignored in Git)
 │
 ├── css/
 │   ├── auth.css
