@@ -1,0 +1,189 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* =========================
+   HEADER (Admin-style)
+========================= */
+.dashboard-header {
+  background-color: #1f2937;
+  color: #ffffff;
+  padding: 16px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-header h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.dashboard-header a {
+  text-decoration: none;
+  background-color: #dc2626;
+  color: #ffffff;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.dashboard-header a:hover {
+  background-color: #b91c1c;
+}
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+.dashboard-container {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* =========================
+   SECTION TITLE
+========================= */
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* =========================
+   QUIZ LIST (Dashboard)
+========================= */
+.quiz-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* =========================
+   QUIZ ROW
+========================= */
+.quiz-row {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 14px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quiz-row:hover {
+  background-color: #f9fafb;
+}
+
+.quiz-row span {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* =========================
+   BUTTON / LINK
+========================= */
+.quiz-row a {
+  text-decoration: none;
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.quiz-row a:hover {
+  background-color: #1d4ed8;
+}
+
+/* =========================
+   DASHBOARD LINKS
+========================= */
+.dashboard-links {
+  margin-top: 25px;
+}
+
+.dashboard-links a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.dashboard-links a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   RESULTS PAGE
+========================= */
+.results-container {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* =========================
+   TABLE
+========================= */
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+}
+
+.results-table th,
+.results-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  font-size: 14px;
+}
+
+.results-table th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+}
+
+.results-table tr:hover {
+  background-color: #f9fafb;
+}
+
+/* =========================
+   TOTAL ROW
+========================= */
+.total-row th,
+.total-row td {
+  background-color: #1f2937;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 600px) {
+  .quiz-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .results-table th,
+  .results-table td {
+    font-size: 13px;
+    padding: 10px;
+  }
+}

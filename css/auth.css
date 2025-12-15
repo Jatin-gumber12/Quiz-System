@@ -1,0 +1,91 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #1ec8ff, #0aa1dd);
+
+  /* FLEXBOX CENTERING */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Heading */
+h2 {
+  margin-bottom: 20px;
+  color: #000;
+}
+
+/* Form container */
+form {
+  background: #ffffff;
+  padding: 25px 35px;
+  border-radius: 10px;
+  width: 320px;
+
+  /* FLEXBOX FOR FORM */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* Labels */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Inputs */
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Button */
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #0aa1dd;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #087fb0;
+}
+
+/* Register text */
+p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+p a {
+  color: #0aa1dd;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+p a:visited{
+    color: #c10add;
+  font-weight: bold;
+  text-decoration: none;
+}
